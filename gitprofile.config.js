@@ -48,7 +48,23 @@ const config = {
     'CSS',
     'HTML5',
     'JSON',
-    'REST'
+    'REST',
+    'PostgreSQL',
+    'MySQL',
+    'Mongo',
+    'IoT',
+    'AWS',
+    'Kafka',
+    'Docker',
+    'NGINX',
+    'UNIX/Linux',
+    'Git CLI',
+    'GitHub',
+    'BitBucket',
+    'Jenkins',
+    'Postman',
+    'Figma (UI)',
+    'JIRA'
   ],
   experiences: [
     {
