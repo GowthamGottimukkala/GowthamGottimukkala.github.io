@@ -4,9 +4,9 @@ const config = {
   github: {
     username: 'GowthamGottimukkala', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 20, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
@@ -24,13 +24,13 @@ const config = {
     // stackoverflow: '', // example: '1/jeff-atwood'
     // skype: '',
     // telegram: '',
-    website: 'https://arifszn.com',
-    phone: '3527099179',
+    // website: 'https://gowthamgottimukkala.github.io/',
+    // phone: '3527099179',
     email: 'v.gottimukkala@ufl.edu',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1ai8KOR2KFoBKzlGry9_srCIFuYHfkmFh/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C/C++',
