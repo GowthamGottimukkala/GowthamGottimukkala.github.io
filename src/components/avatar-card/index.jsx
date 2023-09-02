@@ -27,7 +27,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume, avatarUrl }) => {
             >
               {
                 <LazyImage
-                  src={avatarUrl ? avatarUrl : profile.avatar}
+                  src={avatarUrl}
                   alt={profile.name}
                   placeholder={skeleton({
                     width: 'w-full',
