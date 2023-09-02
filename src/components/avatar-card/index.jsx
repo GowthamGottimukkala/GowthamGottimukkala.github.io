@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { fallbackImage, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 
-const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
+const AvatarCard = ({ profile, loading, avatarRing, resume, avatarUrl }) => {
   return (
     <div className="card shadow-lg compact bg-base-100">
       <div className="grid place-items-center py-8">
@@ -27,7 +27,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
             >
               {
                 <LazyImage
-                  src={profile.avatar ? profile.avatar : fallbackImage}
+                  src={avatarUrl ? avatarUrl : profile.avatar}
                   alt={profile.name}
                   placeholder={skeleton({
                     width: 'w-full',
