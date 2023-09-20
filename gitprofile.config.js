@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'GowthamGottimukkala', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 20, // How many projects to display.
+    limit: 30, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -27,11 +27,11 @@ const config = {
     // website: 'https://gowthamgottimukkala.github.io/',
     // phone: '3527099179',
     email: 'v.gottimukkala@ufl.edu',
-    avatarUrl: 'https://i.ibb.co/SdPK6v6/gowtham-image.jpg',
+    avatarUrl: 'https://drive.google.com/uc?export=view&id=1VjP140_S9jTmu-j8dg0qVHBL5T3Prka1',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1ai8KOR2KFoBKzlGry9_srCIFuYHfkmFh/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1Z2AbH4txNHb-tKTJH-dP8kLpKJz5Ez1-/view?usp=sharing',
   },
   skills: [
     'C/C++',

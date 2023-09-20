@@ -161,6 +161,7 @@ export const sanitizeConfig = (config) => {
       email: config?.social?.email,
       skype: config?.social?.skype,
       telegram: config?.social?.telegram,
+      avatarUrl: config?.social?.avatarUrl,
     },
     resume: {
       fileUrl: config?.resume?.fileUrl || '',
