@@ -27,11 +27,11 @@ const config = {
     // website: 'https://gowthamgottimukkala.github.io/',
     // phone: '3527099179',
     email: 'v.gottimukkala@ufl.edu',
-    avatarUrl: 'https://drive.usercontent.google.com/download?id=1VjP140_S9jTmu-j8dg0qVHBL5T3Prka1&export=view&authuser=0',
+    avatarUrl: 'https://drive.usercontent.google.com/download?id=1VHvuwniR--QoBB_2igHtnh8viY47WkDW&export=view',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1Z2AbH4txNHb-tKTJH-dP8kLpKJz5Ez1-/view?usp=sharing',
+      'https://drive.google.com/file/d/1K397AdqqG-A4JiedoBralrlmQvbAPr09/view?usp=sharing',
   },
   skills: [
     'C/C++',
@@ -72,7 +72,7 @@ const config = {
       company: 'UF Health, University of Florida',
       position: 'Graduate Student Assitant',
       from: 'March 2023',
-      to: 'Present',
+      to: 'May 2024',
       // companyLink: 'https://example.com',
     },
     {
