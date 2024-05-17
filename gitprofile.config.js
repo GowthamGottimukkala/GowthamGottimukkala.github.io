@@ -27,7 +27,7 @@ const config = {
     // website: 'https://gowthamgottimukkala.github.io/',
     // phone: '3527099179',
     email: 'v.gottimukkala@ufl.edu',
-    avatarUrl: 'https://drive.usercontent.google.com/download?id=1VHvuwniR--QoBB_2igHtnh8viY47WkDW&export=view',
+    avatarUrl: 'src/assets/Image.jpg',
   },
   resume: {
     fileUrl:
@@ -153,7 +153,7 @@ const config = {
     // snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'forest',
+    defaultTheme: 'autumn',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode

@@ -25,7 +25,8 @@ const AvatarCard = ({ profile, loading, avatarRing, resume, avatarUrl }) => {
                   : ''
               }`}
             >
-              {
+              <img src={avatarUrl} alt="Avatar"/>
+              {/* {
                 <LazyImage
                   src={avatarUrl}
                   alt={profile.name}
@@ -35,7 +36,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume, avatarUrl }) => {
                     shape: '',
                   })}
                 />
-              }
+              } */}
             </div>
           </div>
         )}
