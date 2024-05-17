@@ -27,7 +27,7 @@ const config = {
     // website: 'https://gowthamgottimukkala.github.io/',
     // phone: '3527099179',
     email: 'v.gottimukkala@ufl.edu',
-    avatarUrl: 'src/assets/Image.jpg',
+    avatarUrl: '/Image.jpg',
   },
   resume: {
     fileUrl:
